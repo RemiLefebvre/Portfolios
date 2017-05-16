@@ -1,15 +1,20 @@
-#top-link-block.affix-top {
-  position: absolute;
-  /* allows it to "slide" up into view */
-  bottom: -82px;
-  left: 10px;
+body, html {
+  width: 100%;
 }
 
-#top-link-block.affix {
-  position: fixed;
-  /* keeps it on the bottom once in view */
-  bottom: 18px;
-  left: 10px;
+header {
+  background-color: #021828;
+}
+header .header {
+  display: flex;
+  justify-content: space-around;
+}
+header .header .nav a {
+  font-size: 20px;
+}
+
+.para1 {
+  background-image: url("../img/");
 }
 
 /*# sourceMappingURL=style.css.map */

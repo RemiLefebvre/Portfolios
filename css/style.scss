@@ -1,10 +1,26 @@
-#top-link-block.affix-top {
-    position: absolute; /* allows it to "slide" up into view */
-    bottom: -82px;
-    left: 10px;
+body,html{
+  width: 100%;
 }
-#top-link-block.affix {
-    position: fixed; /* keeps it on the bottom once in view */
-    bottom: 18px;
-    left: 10px;
+
+// color
+$clair:#0B5A97;
+$fonce:#021828;
+$bleu:#0B3C61;
+
+// BEGIN
+
+header{
+   background-color: $fonce;
+  .header{
+    display: flex;
+    justify-content: space-around;
+    .nav{
+      a{
+        font-size: 20px;
+      }
+    }
+  }
+}
+.para1{
+  background-image: url("../img/");
 }
