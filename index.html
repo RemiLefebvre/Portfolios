@@ -32,7 +32,8 @@
       <!-- HEADER @@@@@@@@@@@@@@@@@//@@@@@@@@@//@@@@@@//@@@@@//@@@@ -->
       <header class="container-fluid">
 
-        <div class="row header">
+        <!-- DESKTOP & TABLETTE -->
+        <div class="row header hidden-xs-down">
           <!-- LOGO -->
           <p>WATATA</p>
           <!-- NAV -->
@@ -57,15 +58,55 @@
           </ul>
 
 
-          <!-- SOCIAL -->
-          <div class="text-center center-block">
+          <!-- desktop social -->
+          <div class="text-center center-block hidden-sm-down">
                 <a href="https://www.facebook.com/bootsnipp"><i class="fa fa-facebook-square fa-3x social"></i></a>
   	            <a href="https://twitter.com/bootsnipp"><i class="fa fa-twitter-square fa-3x social"></i></a>
   	            <a href="https://plus.google.com/+Bootsnipp-page"><i class="fa fa-google-plus-square fa-3x social"></i></a>
   	            <a href="mailto:bootsnipp@gmail.com"><i class="fa fa-envelope-square fa-3x social"></i></a>
           </div>
 
+          <!-- phone social -->
+          <div class="hidden-md-up">
+            <div id="socialHolder" class="col-md-3">
+        		  <div id="socialShare" class="btn-group share-group">
+                <a data-toggle="dropdown" class="btn btn-info share">
+                     <i class="fa fa-share-alt fa-inverse"></i>
+                </a>
+
+    				    <ul class="dropdown-menu">
+        				  <li>
+    					      <a data-original-title="Twitter" rel="tooltip"  href="#" class="btn btn-twitter" data-placement="left">
+								      <i class="fa fa-twitter"></i>
+							      </a>
+    					    </li>
+    					    <li>
+    						    <a data-original-title="Facebook" rel="tooltip"  href="#" class="btn btn-facebook" data-placement="left">
+								      <i class="fa fa-facebook"></i>
+							      </a>
+    					    </li>
+    					    <li>
+        						<a data-original-title="Google+" rel="tooltip"  href="#" class="btn btn-google" data-placement="left">
+    								  <i class="fa fa-google-plus"></i>
+    							  </a>
+        					</li>
+
+                </ul>
+    			    </div>
+            </div>
+          </div><!--fin phone social-->
+        </div><!--fin .header-->
+
+        <div class="row dropdown hidden-sm-up col-12">
+            <i class="fa btn btn-primary dropdown-toggle fa-bars" data-toggle="dropdown" id="about-us" aria-hidden="true"></i>
+          <div class="dropdown-menu" aria-labelledby="about-us">
+            <a class="dropdown-item" href="#">Home</a>
+            <a class="dropdown-item" href="#">Projets</a>
+            <a class="dropdown-item" href="#">A propos</a>
+            <a class="dropdown-item" href="#">Contact</a>
+          </div>
         </div>
+
       </header>
 
       <!-- paralaxe -->

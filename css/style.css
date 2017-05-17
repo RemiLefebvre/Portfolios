@@ -2,8 +2,43 @@ body, html {
   width: 100%;
 }
 
+#socialShare a {
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+#socialShare .share {
+  background-color: #0B3C61;
+  border-color: #0B5A97;
+}
+#socialShare .dropdown-menu {
+  background-color: none;
+  min-width: 2px;
+  padding: 0;
+}
+#socialShare .dropdown-menu a {
+  color: #FFFFFF !important;
+}
+#socialShare .dropdown-menu .btn-twitter {
+  background-color: #3399CC !important;
+  width: 51px;
+}
+#socialShare .dropdown-menu .btn-facebook {
+  background-color: #3D5B96 !important;
+  width: 51px;
+}
+#socialShare .dropdown-menu .btn-google {
+  background-color: #DD3F34 !important;
+  width: 51px;
+}
+
 header {
   background-color: #021828;
+}
+header .dropdown i {
+  padding: 5px 10px;
+  margin: 5px 10px;
+  font-size: 22px;
 }
 header .header {
   display: flex;
@@ -11,10 +46,11 @@ header .header {
 }
 header .header .nav a {
   font-size: 20px;
+  padding: 10px 10px;
 }
 
 .para1 {
-  background-image: url("../img/");
+  background-image: url("../img/bg1.jpg");
 }
 
 /*# sourceMappingURL=style.css.map */
