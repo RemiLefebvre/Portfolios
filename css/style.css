@@ -32,25 +32,53 @@ body, html {
   width: 51px;
 }
 
-header {
+#header {
   background-color: #021828;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
-header .dropdown i {
+#header .dropdown i {
   padding: 5px 10px;
   margin: 5px 10px;
   font-size: 22px;
 }
-header .header {
+#header .header {
   display: flex;
   justify-content: space-around;
 }
-header .header .nav a {
+#header .header .nav a {
   font-size: 20px;
   padding: 10px 10px;
 }
 
-.para1 {
-  background-image: url("../img/bg1.jpg");
+#para1 .home {
+  padding-top: 40px;
+  height: 100vh;
+  background-image: url("../img/desktop/bg1.jpg");
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#para1 .home h1 {
+  font-size: 17vw;
+  position: absolute;
+  top: 30%;
+  margin-left: 50%;
+  left: -35vw;
+  line-height: 0.9em;
+  font-weight: bold;
+}
+#para1 .home h1 span {
+  line-height: 0px;
+  font-size: 9vw;
+  font-weight: 400;
+}
+#para1 .projets {
+  background-color: #0B5A97;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -44,8 +44,11 @@ $bleu:#0B3C61;
 }
 // end dropdown phone
 
-header{
+#header{
    background-color: $fonce;
+   position: fixed;
+   width: 100%;
+   z-index: 100;
    .dropdown{
      i{
        padding: 5px 10px;
@@ -66,6 +69,34 @@ header{
   }
 }
 
-.para1{
-  background-image: url("../img/bg1.jpg");
+#para1{
+  .home{
+    padding-top: 40px;
+    height: 100vh;
+    background-image: url("../img/desktop/bg1.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    h1{
+      font-size: 17vw;
+      position: absolute;
+      top: 30%;
+      margin-left: 50%;
+      left: -35vw;
+      line-height: 0.9em;
+      font-weight: bold;
+      span{
+        line-height: 0px;
+        font-size: 9vw;
+        font-weight: 400;
+
+      }
+    }
+  }
+  .projets{
+    background-color: $clair;
+  }
 }
