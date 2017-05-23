@@ -92,11 +92,24 @@ $bleu:#0B3C61;
         line-height: 0px;
         font-size: 9vw;
         font-weight: 400;
-
       }
     }
   }
   .projets{
     background-color: $clair;
+    h2{
+      font-size: 3em;
+      color: white;
+      padding: 40px 0;
+      text-align: center;
+    }
+    figure{
+      margin: 0;
+      padding: 0;
+      img{
+        height: 100%;
+        width: 100%;
+      }
+    }
   }
 }

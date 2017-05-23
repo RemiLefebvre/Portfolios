@@ -80,5 +80,19 @@ body, html {
 #para1 .projets {
   background-color: #0B5A97;
 }
+#para1 .projets h2 {
+  font-size: 3em;
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+#para1 .projets figure {
+  margin: 0;
+  padding: 0;
+}
+#para1 .projets figure img {
+  height: 100%;
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */
