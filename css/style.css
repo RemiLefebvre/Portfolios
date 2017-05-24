@@ -2,10 +2,6 @@ body, html {
   width: 100%;
 }
 
-.modal-backdrop {
-  z-index: 1 !important;
-}
-
 #socialShare a {
   border-radius: 5px;
   margin-top: 5px;
@@ -34,6 +30,72 @@ body, html {
 #socialShare .dropdown-menu .btn-google {
   background-color: #DD3F34 !important;
   width: 51px;
+}
+
+.modal-backdrop {
+  z-index: 1 !important;
+}
+
+#header .dropdown button {
+  padding: 0;
+  margin: 5px;
+  background-color: transparent;
+  border-color: transparent;
+}
+#header .dropdown button i {
+  padding: 0;
+  color: #3399CC;
+}
+#header .dropdown #exampleModalLong .modal-dialog {
+  float: left;
+  width: 100%;
+  height: 80%;
+  margin: 0;
+}
+#header .dropdown #exampleModalLong .modal-dialog .modal-content {
+  height: 100%;
+  background-color: #021828;
+}
+#header .dropdown #exampleModalLong .modal-dialog .modal-header {
+  background-color: #021828;
+}
+#header .dropdown #exampleModalLong .modal-dialog .modal-header h5 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+#header .dropdown #exampleModalLong .modal-dialog .modal-header button {
+  color: #3399CC;
+  font-size: 30px;
+  text-shadow: none;
+}
+#header .dropdown #exampleModalLong .modal-dialog .modal-body {
+  padding: 0;
+}
+#header .dropdown #exampleModalLong .modal-dialog a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #021828;
+  transition: 0.2s;
+}
+#header .dropdown #exampleModalLong .modal-dialog a:hover {
+  color: #3399CC;
+  background-color: white;
+}
+#header .dropdown #exampleModalLong .modal-dialog .modal-footer {
+  background-color: #021828;
+}
+#header .dropdown #exampleModalLong .modal-dialog .modal-footer a {
+  padding: 0;
+}
+#header .dropdown #exampleModalLong .modal-dialog .modal-footer a i {
+  padding: 10px;
+  font-size: 40px;
 }
 
 #header {
