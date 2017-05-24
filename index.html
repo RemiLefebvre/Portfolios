@@ -100,14 +100,22 @@
           </div><!--fin phone social-->
         </div><!--fin .header-->
 
+        <!-- PHONE -->
         <div class="row dropdown hidden-sm-up col-12">
-            <i class="fa btn btn-primary dropdown-toggle fa-bars" data-toggle="dropdown" id="about-us" aria-hidden="true"></i>
-          <div class="dropdown-menu" aria-labelledby="about-us">
-            <a class="dropdown-item" href="#">Home</a>
-            <a class="dropdown-item" href="#">Projets</a>
-            <a class="dropdown-item" href="#">A propos</a>
-            <a class="dropdown-item" href="#">Contact</a>
+          Copy
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+            Launch demo modal
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+
           </div>
+
+
+
+          <span>WATATA</span>
         </div>
 
       </header>
@@ -117,10 +125,10 @@
         <!-- HOME @@@@@@@@@@@@@@@@@//@@@@@@@@@//@@@@@@//@@@@@//@@@@ -->
         <section class="home container-fluid">
           <div class="">
-            <h1 class="hidden-md-up h1phone">Rémi Lefebvre <br> <span>Web developer<br></span></h1>
+            <h1 class="hidden-sm-up h1phone">Rémi Lefebvre <br> <span>Web developer<br></span></h1>
           </div>
           <div class="">
-            <h1 class="hidden-sm-down h1desktop">Rémi Lefebvre <br> <span>Web developer<br></span></h1>
+            <h1 class="hidden-xs-down h1desktop">Rémi Lefebvre <br> <span>Web developer<br></span></h1>
           </div>
         </section>
 
@@ -159,9 +167,9 @@
 
       <!-- PRESENTATION @@@@@@@@@@@@@@@@@//@@@@@@@@@//@@@@@@//@@@@@//@@@@ -->
       <!-- paralax -->
-      <div class="para2">
+      <div id="para2">
 
-        <section class="container">
+        <section class="container-fluid apropos">
           <h2>A propos</h2>
 
           <div class="container">
@@ -193,75 +201,77 @@
 
       <!-- CONTACT @@@@@@@@@@@@@@@@@//@@@@@@@@@//@@@@@@//@@@@@//@@@@ -->
       <!-- paralax -->
-      <div class="para3">
+      <div id="para3">
+        <div class="container-fluid contact">
 
-        <!-- contact -->
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12 col-lg-12">
-                        <h1 class="h1">
-                            Contactez<strong> moi</strong></h1>
-                    </div>
-                </div>
-            </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <div class="well well-sm">
-                        <form>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Nom et Prénom" required="required" />
-                                </div>
-                                <div class="form-group">
-<br>
-                                    <div class="input-group">
-                                        <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                                        </span>
-                                        <input type="email" class="form-control" id="email" placeholder="email@domain.com" required="required" /></div>
-                                </div>
-                                <div class="form-group">
-<br>
-                                    <select id="subject" name="subject" class="form-control" required="required">
-                                        <option value="na" selected="">Requête:</option>
-                                        <option value="service">Site vitrine</option>
-                                        <option value="suggestions">Question</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
-                                        placeholder="Message"></textarea>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
-                                    Envoyer</button>
-                            </div>
-                        </div>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <form>
-                      <legend><span class="glyphicon glyphicon-globe"></span> Aussi</legend>
-                        <p>
-                          Afin d'obtenir un devis précis merci de détailler au maximum le fonctionnement de votre projet.
-                        </p>
-                        <address>
-                          <strong>E-mail</strong><br>
-                          <a href="mailto:#">Lefebvre.reminicolas@gmail.com</a><br>
-                          <strong></strong>
-                          <a href="https://github.com/RemiLefebvre"><i class="fa fa-github fa-4x" aria-hidden="true" style="color:black"></i></a>
-                        </address>
-                    </form>
-                </div>
-            </div>
+          <!-- contact -->
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-12 col-lg-12">
+                          <h1 class="h1">
+                              Contactez<strong> moi</strong></h1>
+                      </div>
+                  </div>
+              </div>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-8">
+                      <div class="well well-sm">
+                          <form>
+                          <div class="row">
+                              <div class="col-md-6">
+                                  <div class="form-group">
+                                      <input type="text" class="form-control" id="name" placeholder="Nom et Prénom" required="required" />
+                                  </div>
+                                  <div class="form-group">
+  <br>
+                                      <div class="input-group">
+                                          <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                          </span>
+                                          <input type="email" class="form-control" id="email" placeholder="email@domain.com" required="required" /></div>
+                                  </div>
+                                  <div class="form-group">
+  <br>
+                                      <select id="subject" name="subject" class="form-control" required="required">
+                                          <option value="na" selected="">Requête:</option>
+                                          <option value="service">Site vitrine</option>
+                                          <option value="suggestions">Question</option>
+                                      </select>
+                                  </div>
+                              </div>
+                              <div class="col-md-6">
+                                  <div class="form-group">
+                                      <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                          placeholder="Message"></textarea>
+                                  </div>
+                              </div>
+                              <div class="col-md-12">
+                                  <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                      Envoyer</button>
+                              </div>
+                          </div>
+                          </form>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                      <form>
+                        <legend><span class="glyphicon glyphicon-globe"></span> Aussi</legend>
+                          <p>
+                            Afin d'obtenir un devis précis merci de détailler au maximum le fonctionnement de votre projet.
+                          </p>
+                          <address>
+                            <strong>E-mail</strong><br>
+                            <a href="mailto:#">Lefebvre.reminicolas@gmail.com</a><br>
+                            <strong></strong>
+                            <a href="https://github.com/RemiLefebvre"><i class="fa fa-github fa-4x" aria-hidden="true" style="color:black"></i></a>
+                          </address>
+                      </form>
+                  </div>
+              </div>
+          </div>
         </div>
-      </div>
 
+      </div>
 
 
       <!-- FOOTER @@@@@@@@@@@@@@@@@//@@@@@@@@@//@@@@@@//@@@@@//@@@@ -->
