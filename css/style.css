@@ -150,17 +150,17 @@ body, html {
   margin-left: 50%;
   left: -35vw;
 }
-#para1 .projets {
+#para1 #projets {
   background-color: #021828;
   padding-bottom: 200px;
 }
-#para1 .projets h2 {
+#para1 #projets h2 {
   font-size: 3em;
   color: white;
   padding: 40px 0;
   text-align: center;
 }
-#para1 .projets figure {
+#para1 #projets figure {
   overflow-x: hidden;
   background-color: white;
   margin: 0;
@@ -168,8 +168,18 @@ body, html {
   position: relative;
   overflow-y: hidden;
 }
-#para1 .projets figure::after {
-  content: "PISCINE";
+#para1 #projets figure button {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  z-index: 20;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  border: 0px;
+}
+#para1 #projets figure::after {
   font-size: 70px;
   font-family: 'Montserrat', sans-serif;
   position: absolute;
@@ -186,25 +196,77 @@ body, html {
   top: 0;
   text-transform: uppercase;
   background-clip: text;
-  background-image: url("../img/desktop/poolday.jpg");
   background-size: 100% 100%;
 }
-#para1 .projets figure:hover img {
+#para1 #projets figure:hover img {
   opacity: 1;
 }
-#para1 .projets figure img {
+#para1 #projets figure img {
   height: 100%;
   width: 100%;
   opacity: 0.1;
   transition: 0.5s;
 }
-#para1 .projets .siteboatonink::after {
+#para1 #projets .siteboatonink::after {
   background-image: url("../img/desktop/boatonink.jpg");
   content: "TATOO";
 }
-#para1 .projets .sitemoreinnovation::after {
+#para1 #projets .sitemoreinnovation::after {
   background-image: url("../img/desktop/moreinnovation.jpg");
   content: "AGENCE";
+}
+#para1 #projets .sitepoolday::after {
+  background-image: url("../img/desktop/poolday.jpg");
+  content: "PISCINE";
+}
+#para1 #projets .sitecoach::after {
+  background-image: url("../img/desktop/fitness&u.jpg");
+  content: "SPORT";
+}
+#para1 #projets .siteairbnb::after {
+  background-image: url("../img/desktop/airbnb.jpg");
+  content: "AIRBNB";
+}
+#para1 #projets .siteleboncoin::after {
+  background-image: url("../img/desktop/leboncoin.jpg");
+  content: "LEBONCOIN";
+}
+#para1 #projets .modal .modal-header {
+  background-color: #021828;
+  color: #3399CC;
+}
+#para1 #projets .modal .modal-header button {
+  text-shadow: none;
+  color: #3399CC;
+}
+#para1 #projets .modal figure {
+  margin-top: 20px;
+}
+#para1 #projets .modal figure img {
+  opacity: 1;
+}
+#para1 #projets .modal p {
+  margin: 10px;
+}
+#para1 #projets .modal address {
+  line-height: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+#para1 #projets .modal address a {
+  color: black;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  transition: 0.2s;
+}
+#para1 #projets .modal address a:hover {
+  text-decoration: none;
+  color: #3399CC;
+  background-color: #021828;
+}
+#para1 #projets .modal address a i {
+  margin: 0 10px;
 }
 
 #para2 {
