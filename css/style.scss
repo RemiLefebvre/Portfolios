@@ -404,12 +404,26 @@ h4{
 }
 
 @media (max-width: 400px) {
+  #para1{
+    #projets{
+      padding-top: 20px;
+      padding-bottom: 50px;
+    }
+  }
   #para2{
-    // background-size: 100% auto;
+    background-size: 100% auto;
+    background-repeat: repeat-y;
     padding-top: 100px;
     #apropos{
-
+      padding-top: 30px;
+      padding-bottom: 50px;
     }
-
+  }
+  #para3{
+    padding-top: 100px;
+    #contact{
+      padding-top: 30px;
+      padding-bottom: 50px;
+    }
   }
 }
