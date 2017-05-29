@@ -2,6 +2,23 @@ body, html {
   width: 100%;
 }
 
+h2 {
+  font-family: "Lobster" !important;
+  font-size: 4em !important;
+  color: white !important;
+  padding: 40px 0;
+  text-align: center;
+  font-style: italic !important;
+  transform: rotate(-5deg) !important;
+  font-weight: bold !important;
+}
+
+h4 {
+  color: #3399CC !important;
+  font-weight: bold !important;
+  font-family: 'Permanent Marker' !important;
+}
+
 #socialShare a {
   border-radius: 5px;
   margin-top: 5px;
@@ -36,6 +53,10 @@ body, html {
   z-index: 1 !important;
 }
 
+#header h4 {
+  margin-top: 10px;
+  font-size: 30px;
+}
 #header .dropdown button {
   padding: 0;
   margin: 5px;
@@ -116,16 +137,6 @@ body, html {
 #header .header .nav a {
   font-size: 20px;
   padding: 10px 10px;
-}
-
-h2 {
-  font-size: 4em !important;
-  color: white !important;
-  padding: 40px 0;
-  text-align: center;
-  font-style: italic !important;
-  transform: rotate(-5deg) !important;
-  font-weight: bold !important;
 }
 
 #para1 .home {

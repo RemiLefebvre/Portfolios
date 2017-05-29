@@ -12,6 +12,22 @@ $bleu2:#02243E;
 // font-family: 'Montserrat', sans-serif;
 
 // BEGIN
+// H2 @@@@@@
+h2{
+  font-family: 'Lobster'!important;
+  font-size: 4em !important;
+  color: white !important;
+  padding: 40px 0;
+  text-align: center;
+  font-style: italic !important;
+  transform: rotate(-5deg)!important;
+  font-weight: bold !important;
+}
+h4{
+  color: $clair2 !important;
+  font-weight: bold !important;
+  font-family: 'Permanent Marker' !important;
+}
 
 
 // Dropdown social
@@ -52,6 +68,10 @@ $bleu2:#02243E;
   z-index: 1 !important;
 }
 #header{
+  h4{
+    margin-top: 10px;
+    font-size: 30px;
+  }
   .dropdown{
     button{
       padding: 0;
@@ -145,16 +165,7 @@ $bleu2:#02243E;
 
   }
 }
-// H2 @@@@@@
-h2{
-  font-size: 4em !important;
-  color: white !important;
-  padding: 40px 0;
-  text-align: center;
-  font-style: italic !important;
-  transform: rotate(-5deg)!important;
-  font-weight: bold !important;
-}
+
 #para1{
   .home{
     padding-top: 40px;
