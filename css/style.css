@@ -53,6 +53,9 @@ h4 {
   z-index: 1 !important;
 }
 
+#header #socialHolder {
+  padding: 0;
+}
 #header h4 {
   margin-top: 10px;
   font-size: 30px;
@@ -333,7 +336,7 @@ h4 {
   position: relative;
 }
 #para3 #contact {
-  padding-top: 100px;
+  padding-top: 80px;
   padding-bottom: 40px;
   background-color: #021828;
   color: white;
@@ -359,12 +362,16 @@ h4 {
 }
 
 @media (max-width: 400px) {
+  #para1 {
+    background-size: 100% 100%;
+  }
   #para1 #projets {
     padding-top: 20px;
     padding-bottom: 50px;
   }
 
   #para2 {
+    background-position: top;
     background-size: 100% auto;
     background-repeat: repeat-y;
     padding-top: 100px;
@@ -376,6 +383,7 @@ h4 {
 
   #para3 {
     padding-top: 100px;
+    background-size: auto 100%;
   }
   #para3 #contact {
     padding-top: 30px;
