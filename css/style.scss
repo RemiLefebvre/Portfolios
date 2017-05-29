@@ -383,6 +383,9 @@ h4{
       padding-bottom: 50px;
     }
     .detail{
+      h5{
+        padding-bottom: 0;
+      }
       i{
         color: white;
         background-color: white;
@@ -399,13 +402,14 @@ h4{
     }
   }
 }
-//
-// @media (max-width: 400px) {
-//   #projets{
-//     figure{
-//       &::after{
-//         color: #000;
-//       }
-//     }
-//   }
-// }
+
+@media (max-width: 400px) {
+  #para2{
+    // background-size: 100% auto;
+    padding-top: 100px;
+    #apropos{
+
+    }
+
+  }
+}

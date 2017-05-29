@@ -341,6 +341,9 @@ h4 {
 #para3 #contact h5 {
   padding-bottom: 50px;
 }
+#para3 #contact .detail h5 {
+  padding-bottom: 0;
+}
 #para3 #contact .detail i {
   color: white;
   background-color: white;
@@ -353,6 +356,12 @@ h4 {
 }
 #para3 #contact #btnContactUs {
   text-align: center;
+}
+
+@media (max-width: 400px) {
+  #para2 {
+    padding-top: 100px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
