@@ -151,6 +151,9 @@ h2{
   color: white !important;
   padding: 40px 0;
   text-align: center;
+  font-style: italic !important;
+  transform: rotate(-5deg)!important;
+  font-weight: bold !important;
 }
 #para1{
   .home{
@@ -356,6 +359,27 @@ h2{
   background-size: cover;
   position: relative;
   #contact{
+    padding-top: 140px;
+    padding-bottom: 180px;
     background-color: $fonce;
+    color: white;
+    h4{
+      padding-bottom: 50px;
+    }
+    .detail{
+      i{
+        color: white;
+        background-color: white;
+        border-radius: 100%;
+        padding: 0 4px;
+        transition: 0.3s;
+        &:hover{
+          transform: rotate(-10deg);
+        }
+      }
+    }
+    #btnContactUs{
+      text-align: center;
+    }
   }
 }

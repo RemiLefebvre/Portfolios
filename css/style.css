@@ -123,6 +123,9 @@ h2 {
   color: white !important;
   padding: 40px 0;
   text-align: center;
+  font-style: italic !important;
+  transform: rotate(-5deg) !important;
+  font-weight: bold !important;
 }
 
 #para1 .home {
@@ -317,7 +320,26 @@ h2 {
   position: relative;
 }
 #para3 #contact {
+  padding-top: 140px;
+  padding-bottom: 180px;
   background-color: #021828;
+  color: white;
+}
+#para3 #contact h4 {
+  padding-bottom: 50px;
+}
+#para3 #contact .detail i {
+  color: white;
+  background-color: white;
+  border-radius: 100%;
+  padding: 0 4px;
+  transition: 0.3s;
+}
+#para3 #contact .detail i:hover {
+  transform: rotate(-10deg);
+}
+#para3 #contact #btnContactUs {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
