@@ -145,7 +145,13 @@ $bleu2:#02243E;
 
   }
 }
-
+// H2 @@@@@@
+h2{
+  font-size: 4em !important;
+  color: white !important;
+  padding: 40px 0;
+  text-align: center;
+}
 #para1{
   .home{
     padding-top: 40px;
@@ -182,12 +188,6 @@ $bleu2:#02243E;
   #projets{//PROJETS
     background-color: $fonce;
     padding-bottom: 200px;
-    h2{
-      font-size: 3em;
-      color: white;
-      padding: 40px 0;
-      text-align: center;
-    }
 
     figure{
       button{
@@ -303,29 +303,59 @@ $bleu2:#02243E;
     }
   }
 }
+
+// A PROPOS
 #para2{
   padding-top: 290px;
-  height: 100vh;
   background-image: url("../img/desktop/bg2.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  .apropos{
+  #apropos{
     background-color: $fonce;
+    color: white;
+    padding-bottom: 160px;
+    padding-top: 100px;
+    .paralogo{
+      p{
+        font-size: 1.3em;
+      }
+      .logo{
+        margin-top: 90px;
+        display: flex;
+        justify-content: space-around;
+        figure{
+          max-width:120px;
+          // min-height: 120px;
+          img{
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+    .moi{
+      figure{
+        border-radius: 100%;
+        img{
+          border-radius: 100%;
+        }
+      }
+    }
   }
-}
+}//fin a propos
+
 #para3{
   padding-top: 290px;
-  height: 100vh;
   background-image: url("../img/desktop/bg3.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  .contact{
+  #contact{
     background-color: $fonce;
   }
 }

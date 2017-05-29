@@ -118,6 +118,13 @@ body, html {
   padding: 10px 10px;
 }
 
+h2 {
+  font-size: 4em !important;
+  color: white !important;
+  padding: 40px 0;
+  text-align: center;
+}
+
 #para1 .home {
   padding-top: 40px;
   height: 100vh;
@@ -153,12 +160,6 @@ body, html {
 #para1 #projets {
   background-color: #021828;
   padding-bottom: 200px;
-}
-#para1 #projets h2 {
-  font-size: 3em;
-  color: white;
-  padding: 40px 0;
-  text-align: center;
 }
 #para1 #projets figure {
   overflow-x: hidden;
@@ -271,7 +272,6 @@ body, html {
 
 #para2 {
   padding-top: 290px;
-  height: 100vh;
   background-image: url("../img/desktop/bg2.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -279,13 +279,36 @@ body, html {
   background-size: cover;
   position: relative;
 }
-#para2 .apropos {
+#para2 #apropos {
   background-color: #021828;
+  color: white;
+  padding-bottom: 160px;
+  padding-top: 100px;
+}
+#para2 #apropos .paralogo p {
+  font-size: 1.3em;
+}
+#para2 #apropos .paralogo .logo {
+  margin-top: 90px;
+  display: flex;
+  justify-content: space-around;
+}
+#para2 #apropos .paralogo .logo figure {
+  max-width: 120px;
+}
+#para2 #apropos .paralogo .logo figure img {
+  width: 100%;
+  height: 100%;
+}
+#para2 #apropos .moi figure {
+  border-radius: 100%;
+}
+#para2 #apropos .moi figure img {
+  border-radius: 100%;
 }
 
 #para3 {
   padding-top: 290px;
-  height: 100vh;
   background-image: url("../img/desktop/bg3.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -293,7 +316,7 @@ body, html {
   background-size: cover;
   position: relative;
 }
-#para3 .contact {
+#para3 #contact {
   background-color: #021828;
 }
 
