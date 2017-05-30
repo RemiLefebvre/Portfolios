@@ -372,6 +372,24 @@ h4 {
     padding-top: 20px;
     padding-bottom: 50px;
   }
+  #para1 #projets .siteboatonink::after {
+    background-image: url("../img/phone/boatonink.jpg");
+  }
+  #para1 #projets .sitemoreinnovation::after {
+    background-image: url("../img/phone/moreinnovation.jpg");
+  }
+  #para1 #projets .sitepoolday::after {
+    background-image: url("../img/phone/poolday.jpg");
+  }
+  #para1 #projets .sitecoach::after {
+    background-image: url("../img/phone/fitness&u.jpg");
+  }
+  #para1 #projets .siteairbnb::after {
+    background-image: url("../img/phone/airbnb.jpg");
+  }
+  #para1 #projets .siteleboncoin::after {
+    background-image: url("../img/phone/leboncoin.jpg");
+  }
 
   #para2 {
     background-image: url("../img/phone/bg2.jpg");
