@@ -408,9 +408,12 @@ h4{
 
 @media (max-width: 400px) {
   #para1{
-    background-image: url("../img/phone/bg1.jpg");
-    background-size: 100% 100%;
-    background-attachment: scroll;
+    .home{
+      background-image: url("../img/phone/bg1.jpg");
+      background-attachment: scroll ;
+      background-position: top;
+      background-size: auto 100%;
+    }
     #projets{
       padding-top: 20px;
       padding-bottom: 50px;
