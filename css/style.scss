@@ -280,7 +280,7 @@ h4{
     }
     .siteleboncoin::after{
       background-image: url("../img/desktop/leboncoin.jpg");
-      content: "AUTRE";
+      content: "LECOIN";
     }
 
     .modal{
@@ -409,7 +409,6 @@ h4{
 @media (max-width: 400px) {
   #para1{
     .home{
-      background-image: url("../img/phone/bg1.jpg");
       background-attachment: scroll ;
       background-position: top;
       background-size: auto 100%;
