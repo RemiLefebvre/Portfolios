@@ -365,6 +365,7 @@ h4 {
   #para1 {
     background-image: url("../img/phone/bg1.jpg");
     background-size: 100% 100%;
+    background-attachment: scroll;
   }
   #para1 #projets {
     padding-top: 20px;
@@ -373,6 +374,7 @@ h4 {
 
   #para2 {
     background-image: url("../img/phone/bg2.jpg");
+    background-attachment: scroll;
     background-position: top;
     background-size: 100% auto;
     background-repeat: repeat-y;
@@ -385,8 +387,10 @@ h4 {
 
   #para3 {
     background-image: url("../img/phone/bg3.jpg");
+    background-attachment: scroll;
+    background-position: top;
+    background-size: 100% auto;
     padding-top: 100px;
-    background-size: auto 100%;
   }
   #para3 #contact {
     padding-top: 30px;
