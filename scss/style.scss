@@ -9,11 +9,6 @@ $fonce:#021828;
 $bleu:#0B3C61;
 $bleu2:#02243E;
 
-@mixin text {
-  background-clip: text;
-  -webkit-background-clip: text;
-}
-
 // font-family: 'Montserrat', sans-serif;
 // font-family: 'Lobster'!important;
 // font-family: 'Permanent Marker' !important;
@@ -249,7 +244,8 @@ h4{
           height: 100%;
           left: 0;
           top: 0;
-          @include text;
+          background-clip: text;
+          -webkit-background-clip: text;
           background-size: 100% 100%;
         }
         &:hover img{
