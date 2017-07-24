@@ -57,7 +57,7 @@ h4 {
   position: relative;
 }
 #header .header .desktopSocial a i {
-  margin-top: 5px;
+  margin-top: 10px;
   color: #02243E;
   background-color: white;
   line-height: 30px;
@@ -320,9 +320,12 @@ h4 {
   font-size: 1.3em;
 }
 #para2 #apropos .paralogo .logo {
-  margin-top: 90px;
+  margin-top: 60px;
   display: flex;
   justify-content: space-around;
+}
+#para2 #apropos .paralogo .logo:last-child {
+  margin-top: 0;
 }
 #para2 #apropos .paralogo .logo figure {
   max-width: 120px;
@@ -333,6 +336,8 @@ h4 {
 }
 #para2 #apropos .moi figure {
   border-radius: 100%;
+  position: sticky;
+  top: 170px;
 }
 #para2 #apropos .moi figure img {
   border-radius: 100%;

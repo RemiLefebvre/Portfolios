@@ -81,7 +81,7 @@ h4{
       position: relative;
       a{
         i{
-          margin-top: 5px;
+          margin-top: 10px;
           color: $bleu2;
           background-color: white;
           line-height: 30px;
@@ -366,9 +366,12 @@ h4{
         font-size: 1.3em;
       }
       .logo{
-        margin-top: 90px;
+        margin-top: 60px;
         display: flex;
         justify-content: space-around;
+        &:last-child{
+          margin-top: 0;
+        }
         figure{
           max-width:120px;
           // min-height: 120px;
@@ -382,6 +385,8 @@ h4{
     .moi{
       figure{
         border-radius: 100%;
+        position: sticky;
+        top: 170px;
         img{
           border-radius: 100%;
         }
