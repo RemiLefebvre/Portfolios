@@ -53,6 +53,18 @@ h4 {
   z-index: 1 !important;
 }
 
+#header .header .desktopSocial {
+  position: relative;
+}
+#header .header .desktopSocial a i {
+  margin-top: 5px;
+  color: #02243E;
+  background-color: white;
+  line-height: 30px;
+}
+#header .header .desktopSocial a i:hover {
+  background-color: #3399CC;
+}
 #header #socialHolder {
   padding: 0;
 }
