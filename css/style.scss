@@ -384,6 +384,10 @@ h4{
           position: relative;
           transition: 0.2s;
           width:70px;
+          .progress{
+            background-color: transparent!important;
+            position: absolute;
+          }
           img{
             width: 100%;
           }
