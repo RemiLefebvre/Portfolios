@@ -13,6 +13,10 @@
         <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 
 
+        <!-- jQuery library -->
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/vendor/jquery-1.12.0.min.js"></script>
+
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
@@ -366,19 +370,19 @@
               <div class="paralogo col-xl-8 col-lg-12">
 
                 <p><strong class="h3">Rémi Lefebvre</strong> <br>
-                  Issu d'une formation intensive de web développeur <strong>Front-end/Back-end</strong>, j'ai auparavant fais mon cursus scolaire dans l'electrotechnique (bac +2), pour ensuite m'essayer à divers métiers comme celui de barman que j'ai exercé durant 3ans. <br>Attiré par le web et le design, c'est la passion qui ma guidé vers ce métier. <strong>Tendance et technique </strong>sont deux facteurs qui défini mon style.<br> Pour toutes <strong>demandes de projets, questions/reneignements</strong>:<br> <a href="#contact"> contactez-moi</a>.</p>
+                  Issu d'une formation intensive de web développeur <strong>Front-end/Back-end</strong>, j'ai auparavant fait mon cursus scolaire dans l'electrotechnique (bac +2), pour ensuite m'essayer à divers métiers comme celui de barman que j'ai exercé durant 3ans. <br>Attiré par le web et le design, c'est la passion qui m'a guidé vers ce métier. <strong>Tendance et technique </strong>sont deux facteurs qui définissent mon style.<br> Pour toutes <strong>demandes de projets, questions/reneignements</strong>:<br> <a href="#contact"> contactez-moi</a>.</p>
 
-                <div class="row logo">
-                  <figure class="col-lg-4 col-4"><img src="img/html5.png" alt="CSS"></figure>
-                  <figure class="col-lg-4 col-4"><img src="img/css.png" alt="HTML"></figure>
-                  <figure class="col-lg-4 col-4"><img src="img/js.png" alt="JS"></figure>
+                <div class="row logo logoF">
+                  <figure class="logoFig col-lg-4 col-4"><img src="img/html5.png" alt="CSS"></figure>
+                  <figure class="logoFig col-lg-4 col-4"><img src="img/css.png" alt="HTML"></figure>
+                  <figure class="logoFig col-lg-4 col-4"><img src="img/js.png" alt="JS"></figure>
                 </div>
 
-                <div class="row logo">
-                  <figure class="col-lg-4 col-4"><img src="img/bootstrap.png" alt="Bootstrap"></figure>
-                  <figure class="col-lg-4 col-4"><img src="img/sass.png" alt="sass"></figure>
-                  <figure class="col-lg-4 col-4"><img src="img/jquery.png" alt="jquery"></figure>
-                  <figure class="col-lg-4 col-4"><img src="img/ubuntu.png" alt="ubuntu"></figure>
+                <div class="row logo logoS">
+                  <figure class="logoFig col-lg-3 col-3"><img src="img/bootstrap.png" alt="Bootstrap"></figure>
+                  <figure class="logoFig col-lg-3 col-3"><img src="img/sass.png" alt="sass"></figure>
+                  <figure class="logoFig col-lg-3 col-3"><img src="img/jquery.png" alt="jquery"></figure>
+                  <figure class="logoFig col-lg-3 col-3"><img src="img/ubuntu.png" alt="ubuntu"></figure>
                 </div>
 
               </div>
@@ -472,13 +476,24 @@
       </div>
 
 
-      <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+      <script type="text/javascript">
+
+        $(document).ready(function(){
+            $(".logoFig img").mouseover(function(){
+                $(this).animate({width:'+=10%'});
+              });
+            $(".logoFig img").mouseout(function(){
+              $(this).animate({width:'-=10%'});
+            });
+        });
+      </script>
+
+
+
+      <!-- <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script> -->
       <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
       <script src="js/plugins.js"></script>
       <script src="js/main.js"></script>
-
-      <!-- jQuery library -->
-      <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 
       <!-- Tether -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>

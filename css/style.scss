@@ -365,19 +365,27 @@ h4{
       p{
         font-size: 1.3em;
       }
-      .logo{
+      .logoF{
         margin-top: 60px;
+        figure{
+          padding: 0 70px;
+        }
+      }
+      .logoS{
+        figure{
+          padding: 0 40px;
+        }
+      }
+      .logo{
+        height: 200px;
         display: flex;
         justify-content: space-around;
-        &:last-child{
-          margin-top: 0;
-        }
         figure{
-          max-width:120px;
-          // min-height: 120px;
+          position: relative;
+          transition: 0.2s;
+          width:70px;
           img{
             width: 100%;
-            height: 100%;
           }
         }
       }

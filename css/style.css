@@ -319,20 +319,27 @@ h4 {
 #para2 #apropos .paralogo p {
   font-size: 1.3em;
 }
-#para2 #apropos .paralogo .logo {
+#para2 #apropos .paralogo .logoF {
   margin-top: 60px;
+}
+#para2 #apropos .paralogo .logoF figure {
+  padding: 0 70px;
+}
+#para2 #apropos .paralogo .logoS figure {
+  padding: 0 40px;
+}
+#para2 #apropos .paralogo .logo {
+  height: 200px;
   display: flex;
   justify-content: space-around;
 }
-#para2 #apropos .paralogo .logo:last-child {
-  margin-top: 0;
-}
 #para2 #apropos .paralogo .logo figure {
-  max-width: 120px;
+  position: relative;
+  transition: 0.2s;
+  width: 70px;
 }
 #para2 #apropos .paralogo .logo figure img {
   width: 100%;
-  height: 100%;
 }
 #para2 #apropos .moi figure {
   border-radius: 100%;
