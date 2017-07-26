@@ -325,8 +325,18 @@ h4 {
 #para2 #apropos .paralogo .logoF figure {
   padding: 0 70px;
 }
+#para2 #apropos .paralogo .logoF figure .progress {
+  width: 90%;
+  top: -30px;
+  left: 15px;
+}
 #para2 #apropos .paralogo .logoS figure {
-  padding: 0 40px;
+  padding: 0 20px;
+}
+#para2 #apropos .paralogo .logoS figure .progress {
+  width: 85%;
+  top: -10px;
+  left: 10px;
 }
 #para2 #apropos .paralogo .logo {
   height: 200px;
@@ -339,12 +349,8 @@ h4 {
   width: 70px;
 }
 #para2 #apropos .paralogo .logo figure .progress {
-  width: 83%;
-  background-color: transparent;
-  left: 25px;
-  top: -25px;
   position: absolute;
-  z-index: 1;
+  background-color: transparent;
 }
 #para2 #apropos .paralogo .logo figure img {
   position: relative;
