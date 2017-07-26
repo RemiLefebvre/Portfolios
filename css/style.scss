@@ -382,7 +382,7 @@ h4{
           .progress{
             width: 85%;
             top: -10px;
-            left: 10px;
+            left: 12px;
           }
         }
       }
@@ -455,7 +455,40 @@ h4{
     }
   }
 }
-
+@media (max-width: 764px) {
+  #para2{
+    #apropos{
+      #paralogo{
+        .logoF{
+          figure{
+            padding: 0 40px;
+            .progress{
+              width: 100%;
+              top: -25px;
+              left: -5px;
+            }
+          }
+        }
+        .logoS{
+          figure{
+            padding: 0 10px;
+            .progress{
+              width: 95%;
+              top: -10px;
+              left: 5px;
+            }
+          }
+        }
+        .logo{
+          height: 150px;
+          figure{
+            width: 70px;
+          }
+        }
+      }
+    }
+  }
+}
 @media (max-width: 400px) {
   #para1{
     .home{
@@ -496,6 +529,26 @@ h4{
     #apropos{
       padding-top: 30px;
       padding-bottom: 50px;
+      #paralogo{
+        .logoF{
+          figure{
+            padding: 0 20px;
+            .progress{
+              width: 110%;
+              top: -10px;
+              left: -5px;
+            }
+          }
+        }
+        .logoS{
+          figure{
+            .progress{
+              width: 85%;
+              top: -5px;
+            }
+          }
+        }
+      }
     }
   }
   #para3{

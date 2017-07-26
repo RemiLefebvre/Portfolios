@@ -336,7 +336,7 @@ h4 {
 #para2 #apropos .paralogo .logoS figure .progress {
   width: 85%;
   top: -10px;
-  left: 10px;
+  left: 12px;
 }
 #para2 #apropos .paralogo .logo {
   height: 200px;
@@ -401,6 +401,30 @@ h4 {
   text-align: center;
 }
 
+@media (max-width: 764px) {
+  #para2 #apropos #paralogo .logoF figure {
+    padding: 0 40px;
+  }
+  #para2 #apropos #paralogo .logoF figure .progress {
+    width: 100%;
+    top: -25px;
+    left: -5px;
+  }
+  #para2 #apropos #paralogo .logoS figure {
+    padding: 0 10px;
+  }
+  #para2 #apropos #paralogo .logoS figure .progress {
+    width: 95%;
+    top: -10px;
+    left: 5px;
+  }
+  #para2 #apropos #paralogo .logo {
+    height: 150px;
+  }
+  #para2 #apropos #paralogo .logo figure {
+    width: 70px;
+  }
+}
 @media (max-width: 400px) {
   #para1 .home {
     background-attachment: scroll;
@@ -441,6 +465,18 @@ h4 {
   #para2 #apropos {
     padding-top: 30px;
     padding-bottom: 50px;
+  }
+  #para2 #apropos #paralogo .logoF figure {
+    padding: 0 20px;
+  }
+  #para2 #apropos #paralogo .logoF figure .progress {
+    width: 110%;
+    top: -10px;
+    left: -5px;
+  }
+  #para2 #apropos #paralogo .logoS figure .progress {
+    width: 85%;
+    top: -5px;
   }
 
   #para3 {
