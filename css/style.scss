@@ -82,11 +82,11 @@ h4{
       a{
         i{
           margin-top: 10px;
-          color: $bleu2;
-          background-color: white;
+          color: white;
+          // background-color: white;
           line-height: 30px;
           &:hover{
-            background-color: $clair2;
+            color: $clair2;
           }
         }
       }

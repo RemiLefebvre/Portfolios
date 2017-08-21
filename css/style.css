@@ -58,12 +58,11 @@ h4 {
 }
 #header .header .desktopSocial a i {
   margin-top: 10px;
-  color: #02243E;
-  background-color: white;
+  color: white;
   line-height: 30px;
 }
 #header .header .desktopSocial a i:hover {
-  background-color: #3399CC;
+  color: #3399CC;
 }
 #header #socialHolder {
   padding: 0;
