@@ -81,10 +81,10 @@ h4{
       position: relative;
       a{
         i{
-          letter-spacing: 10px;
           margin-top: 10px;
           color: white;
           line-height: 30px;
+          letter-spacing: 10px;
           &:hover{
             color: $clair2;
           }
@@ -279,17 +279,18 @@ h4{
         transition: 0.5s;
       }
     }
-    .siteboatonink::after{
-      background-image: url("../img/desktop/boatonink.jpg");
-      content:"TATOO";
+    .sitepoolday::after{
+      background-image: url("../img/desktop/pfc-fighter.png");
+      content: "PFC FIGHTER";
+      line-height: 65px;
     }
     .sitemoreinnovation::after{
       background-image: url("../img/desktop/moreinnovation.jpg");
       content: "AGENCE";
     }
-    .sitepoolday::after{
-      background-image: url("../img/desktop/poolday.jpg");
-      content: "PISCINE";
+    .siteboatonink::after{
+      background-image: url("../img/desktop/boatonink.jpg");
+      content:"TATOO";
     }
     .sitecoach::after{
       background-image: url("../img/desktop/fitness&u.jpg");
