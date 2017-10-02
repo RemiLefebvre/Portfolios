@@ -239,22 +239,27 @@ h4 {
   opacity: 0.1;
   transition: 0.5s;
 }
-#para1 #projets .sitepoolday::after {
+#para1 #projets .sitepfc::after {
   background-image: url("../img/desktop/pfc-fighter.png");
   content: "PFC FIGHTER";
   line-height: 65px;
 }
-#para1 #projets .sitemoreinnovation::after {
-  background-image: url("../img/desktop/moreinnovation.jpg");
-  content: "AGENCE";
+#para1 #projets .sitetrollo::after {
+  background-image: url("../img/desktop/trollo.jpg");
+  content: "GESTION";
+  line-height: 125px;
 }
-#para1 #projets .siteboatonink::after {
-  background-image: url("../img/desktop/boatonink.jpg");
-  content: "TATOO";
+#para1 #projets .sitelpa::after {
+  background-image: url("../img/desktop/lpa.jpg");
+  content: "E-COMMERCE";
+  font-size: 50px;
+  line-height: 125px;
 }
-#para1 #projets .sitecoach::after {
-  background-image: url("../img/desktop/fitness&u.jpg");
-  content: "SPORT";
+#para1 #projets .sitePairbreaker::after {
+  background-image: url("../img/desktop/pairebreaker.jpg");
+  content: "PAIR BREAKER";
+  font-size: 60px;
+  line-height: 65px;
 }
 #para1 #projets .siteairbnb::after {
   background-image: url("../img/desktop/airbnb.jpg");
