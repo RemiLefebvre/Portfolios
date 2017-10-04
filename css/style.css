@@ -325,42 +325,7 @@ h4 {
 #para2 #apropos .paralogo p {
   font-size: 1.3em;
 }
-#para2 #apropos .paralogo .logoF {
-  margin-top: 60px;
-}
-#para2 #apropos .paralogo .logoF figure {
-  padding: 0 70px;
-}
-#para2 #apropos .paralogo .logoF figure .progress {
-  width: 90%;
-  top: -30px;
-  left: 15px;
-}
-#para2 #apropos .paralogo .logoS figure {
-  padding: 0 20px;
-}
-#para2 #apropos .paralogo .logoS figure .progress {
-  width: 85%;
-  top: -10px;
-  left: 12px;
-}
-#para2 #apropos .paralogo .logo {
-  height: 200px;
-  display: flex;
-  justify-content: space-around;
-}
-#para2 #apropos .paralogo .logo figure {
-  position: relative;
-  transition: 0.2s;
-  width: 70px;
-}
-#para2 #apropos .paralogo .logo figure .progress {
-  position: absolute;
-  background-color: transparent;
-}
-#para2 #apropos .paralogo .logo figure img {
-  position: relative;
-  z-index: 3;
+#para2 #apropos .paralogo .logos .logoFig img{
   width: 100%;
 }
 #para2 #apropos .moi figure {
@@ -370,6 +335,14 @@ h4 {
 }
 #para2 #apropos .moi figure img {
   border-radius: 100%;
+}
+#para2 #apropos .paralogo .logosS img{
+  padding: 0 10px;
+}
+@media (min-width: 768px) {
+  #para2 #apropos .paralogo .logosS img{
+    padding: 0 50px;
+  }
 }
 
 #para3 {
@@ -407,20 +380,7 @@ h4 {
   text-align: center;
 }
 
-@media (max-width: 764px) {
-  #para2 #apropos #paralogo .logoF figure {
-    padding: 0 40px;
-  }
-  #para2 #apropos #paralogo .logoS figure {
-    padding: 0 10px;
-  }
-  #para2 #apropos #paralogo .logo {
-    height: 150px;
-  }
-  #para2 #apropos #paralogo .logo figure {
-    width: 70px;
-  }
-}
+
 @media (max-width: 400px) {
   #para1 .home {
     background-attachment: scroll;
@@ -431,24 +391,25 @@ h4 {
     padding-top: 20px;
     padding-bottom: 50px;
   }
-  /*#para1 #projets .siteboatonink::after {
-    background-image: url("../img/phone/boatonink.jpg");
+
+  #para1 #projets .sitepfc::after {
+  background-image: url("../img/phone/pfc-fighter.jpg");
   }
-  #para1 #projets .sitemoreinnovation::after {
-    background-image: url("../img/phone/moreinnovation.jpg");
+  #para1 #projets .sitetrollo::after {
+    background-image: url("../img/phone/trollo.jpg");
   }
-  #para1 #projets .sitepoolday::after {
-    background-image: url("../img/phone/poolday.jpg");
+  #para1 #projets .sitelpa::after {
+    background-image: url("../img/phone/lpa.jpg");
   }
-  #para1 #projets .sitecoach::after {
-    background-image: url("../img/phone/fitness&u.jpg");
+  #para1 #projets .sitePairbreaker::after {
+  background-image: url("../img/phone/pairebreaker.jpg");
   }
   #para1 #projets .siteairbnb::after {
     background-image: url("../img/phone/airbnb.jpg");
   }
-  #para1 #projets .siteleboncoin::after {
-    background-image: url("../img/phone/leboncoin.jpg");
-  }*/
+  #para1 #projets .sitefitnessAndU::after {
+    background-image: url("../img/phone/fitnessAndU.jpg");
+  }
 
   #para2 {
     background-image: url("../img/phone/bg2.jpg");
