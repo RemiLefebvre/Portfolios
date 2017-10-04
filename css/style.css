@@ -265,9 +265,9 @@ h4 {
   background-image: url("../img/desktop/airbnb.jpg");
   content: "AIRBNB";
 }
-#para1 #projets .siteleboncoin::after {
-  background-image: url("../img/desktop/leboncoin.jpg");
-  content: "LECOIN";
+#para1 #projets .sitefitnessAndU::after {
+  background-image: url("../img/desktop/fitnessAndU.jpg");
+  content: "SPORT";
 }
 #para1 #projets .modal .modal-header {
   background-color: #021828;
@@ -411,18 +411,8 @@ h4 {
   #para2 #apropos #paralogo .logoF figure {
     padding: 0 40px;
   }
-  #para2 #apropos #paralogo .logoF figure .progress {
-    width: 100%;
-    top: -25px;
-    left: -5px;
-  }
   #para2 #apropos #paralogo .logoS figure {
     padding: 0 10px;
-  }
-  #para2 #apropos #paralogo .logoS figure .progress {
-    width: 95%;
-    top: -10px;
-    left: 5px;
   }
   #para2 #apropos #paralogo .logo {
     height: 150px;
@@ -441,7 +431,7 @@ h4 {
     padding-top: 20px;
     padding-bottom: 50px;
   }
-  #para1 #projets .siteboatonink::after {
+  /*#para1 #projets .siteboatonink::after {
     background-image: url("../img/phone/boatonink.jpg");
   }
   #para1 #projets .sitemoreinnovation::after {
@@ -458,7 +448,7 @@ h4 {
   }
   #para1 #projets .siteleboncoin::after {
     background-image: url("../img/phone/leboncoin.jpg");
-  }
+  }*/
 
   #para2 {
     background-image: url("../img/phone/bg2.jpg");
@@ -472,18 +462,9 @@ h4 {
     padding-top: 30px;
     padding-bottom: 50px;
   }
-  #para2 #apropos #paralogo .logoF figure {
+  /*#para2 #apropos #paralogo .logoF figure {
     padding: 0 20px;
-  }
-  #para2 #apropos #paralogo .logoF figure .progress {
-    width: 110%;
-    top: -10px;
-    left: -5px;
-  }
-  #para2 #apropos #paralogo .logoS figure .progress {
-    width: 85%;
-    top: -5px;
-  }
+  }*/
 
   #para3 {
     background-image: url("../img/phone/bg3.jpg");
