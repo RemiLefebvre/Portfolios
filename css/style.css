@@ -394,6 +394,7 @@ h4 {
 
   #para1 #projets .sitepfc::after {
   background-image: url("../img/phone/pfc-fighter.jpg");
+  background-position:
   }
   #para1 #projets .sitetrollo::after {
     background-image: url("../img/phone/trollo.jpg");
