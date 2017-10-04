@@ -373,6 +373,19 @@ h4 {
   padding: 0 4px;
   transition: 0.3s;
 }
+#para3 #contact .detail .cv {
+  font-size: 24px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border-color: #0B5A97;
+  background-color: #021828;
+  color: #3399CC;
+  transition: 0.2s;
+}
+#para3 #contact .detail .cv:hover {
+  color: #0B5A97;
+
+}
 #para3 #contact .detail i:hover {
   transform: rotate(-10deg);
 }
