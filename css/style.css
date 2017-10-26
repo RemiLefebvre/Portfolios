@@ -239,36 +239,67 @@ h4 {
   opacity: 0.1;
   transition: 0.5s;
 }
-#para1 #projets .sitepfc::after {
-  background-image: url("../img/desktop/pfc-fighter.png");
-  content: "PFC FIGHTER";
-  line-height: 65px;
-}
+
 #para1 #projets .sitetrollo::after {
   background-image: url("../img/desktop/trollo.jpg");
   content: "GESTION";
   line-height: 125px;
+  font-size: 50px;
 }
 #para1 #projets .sitelpa::after {
   background-image: url("../img/desktop/lpa.jpg");
   content: "E-COMMERCE";
-  font-size: 50px;
+  font-size: 30px;
   line-height: 125px;
-}
-#para1 #projets .sitePairbreaker::after {
-  background-image: url("../img/desktop/pairebreaker.jpg");
-  content: "PAIR BREAKER";
-  font-size: 60px;
-  line-height: 65px;
 }
 #para1 #projets .siteairbnb::after {
   background-image: url("../img/desktop/airbnb.jpg");
   content: "AIRBNB";
+  font-size: 50px;
+
 }
 #para1 #projets .sitefitnessAndU::after {
   background-image: url("../img/desktop/fitnessAndU.jpg");
   content: "SPORT";
+  font-size: 50px;
 }
+#para1 #projets .sitePairbreaker::after {
+  background-image: url("../img/desktop/pairebreaker.jpg");
+  content: "PAIR BREAKER";
+  font-size: 40px;
+  line-height: 45px;
+}
+#para1 #projets .sitepfc::after {
+  background-image: url("../img/desktop/pfc-fighter.png");
+  content: "PFC FIGHTER";
+  font-size: 50px;
+  line-height: 45px;
+}
+
+@media (min-width: 368px) {
+  #para1 #projets .sitetrollo::after {
+    font-size: 70px;
+  }
+  #para1 #projets .sitelpa::after {
+    font-size: 50px;
+  }
+  #para1 #projets .siteairbnb::after {
+    font-size: 70px;
+  }
+  #para1 #projets .sitefitnessAndU::after {
+    font-size: 70px;
+  }
+  #para1 #projets .sitePairbreaker::after {
+    line-height: 65px;
+    font-size: 60px;
+  }
+  #para1 #projets .sitepfc::after {
+    font-size: 60px;
+    line-height: 65px;
+  }
+}
+
+
 #para1 #projets .modal .modal-header {
   background-color: #021828;
   color: #3399CC;
