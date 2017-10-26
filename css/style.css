@@ -125,6 +125,7 @@ h4 {
 }
 #header .dropdown #exampleModalLong .modal-dialog .modal-footer {
   background-color: #021828;
+  overflow: hidden;
 }
 #header .dropdown #exampleModalLong .modal-dialog .modal-footer a {
   padding: 0;
