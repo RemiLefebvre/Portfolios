@@ -259,10 +259,10 @@ h4 {
   font-size: 50px;
 
 }
-#para1 #projets .sitefitnessAndU::after {
+#para1 #projets .siteCarDealer::after {
   background-image: url("../img/desktop/carDealer.jpg");
   content: "BDD";
-  font-size: 50px;
+  font-size: 70px;
 }
 #para1 #projets .sitePairbreaker::after {
   background-image: url("../img/desktop/pairebreaker.jpg");
